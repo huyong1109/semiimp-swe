@@ -1,0 +1,153 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BarotropicModel	BarotropicModel.h	/^    BarotropicModel() { firstRun = true; }$/;"	f	class:barotropic_model::BarotropicModel
+BarotropicModel	BarotropicModel.h	/^class BarotropicModel {$/;"	c	namespace:barotropic_model
+BarotropicModel_A_ImplicitMidpoint	BarotropicModel_A_ImplicitMidpoint.cpp	/^BarotropicModel_A_ImplicitMidpoint::BarotropicModel_A_ImplicitMidpoint() {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+BarotropicModel_A_ImplicitMidpoint	BarotropicModel_A_ImplicitMidpoint.h	/^class BarotropicModel_A_ImplicitMidpoint : public BarotropicModel {$/;"	c	namespace:barotropic_model
+BarotropicModel_C_ImplicitMidpoint	BarotropicModel_C_ImplicitMidpoint.cpp	/^BarotropicModel_C_ImplicitMidpoint::BarotropicModel_C_ImplicitMidpoint() {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+BarotropicModel_C_ImplicitMidpoint	BarotropicModel_C_ImplicitMidpoint.h	/^class BarotropicModel_C_ImplicitMidpoint : public BarotropicModel {$/;"	c	namespace:barotropic_model
+BarotropicTestCase	BarotropicTestCase.h	/^    BarotropicTestCase() {}$/;"	f	class:barotropic_model::BarotropicTestCase
+BarotropicTestCase	BarotropicTestCase.h	/^class BarotropicTestCase {$/;"	c	namespace:barotropic_model
+CENTER	barotropic_model_commons.h	/^const int CENTER = geomtk::RLLStagger::Location::CENTER;$/;"	m	namespace:barotropic_model
+DAYS	barotropic_model_commons.h	/^const double DAYS = geomtk::TimeUnit::DAYS;$/;"	m	namespace:barotropic_model
+Domain	barotropic_model_commons.h	/^typedef geomtk::SphereDomain Domain;$/;"	t	namespace:barotropic_model
+FULL	barotropic_model_commons.h	/^const int FULL = geomtk::RLLStagger::GridType::FULL;$/;"	m	namespace:barotropic_model
+FULL_DIMENSION	barotropic_model_commons.h	/^const int FULL_DIMENSION = geomtk::RLLSpaceDimensions::FULL_DIMENSION;$/;"	m	namespace:barotropic_model
+Field	barotropic_model_commons.h	/^typedef geomtk::NumericRLLField<double, 2> Field;$/;"	t	namespace:barotropic_model
+G	barotropic_model_commons.h	/^const double G = 9.8;$/;"	m	namespace:barotropic_model
+GeostrophicRelation	GeostrophicRelation.h	/^class GeostrophicRelation {$/;"	c	namespace:barotropic_model
+HALF	barotropic_model_commons.h	/^const int HALF = geomtk::RLLStagger::GridType::HALF;$/;"	m	namespace:barotropic_model
+IOManager	barotropic_model_commons.h	/^typedef geomtk::IOManager<geomtk::RLLDataFile> IOManager;$/;"	t	namespace:barotropic_model
+MINUTES	barotropic_model_commons.h	/^const double MINUTES = geomtk::TimeUnit::MINUTES;$/;"	m	namespace:barotropic_model
+Mesh	barotropic_model_commons.h	/^typedef geomtk::RLLMesh Mesh;$/;"	t	namespace:barotropic_model
+OMEGA	barotropic_model_commons.h	/^const double OMEGA = 7.292e-5;$/;"	m	namespace:barotropic_model
+Peak	ToyTestCase.h	/^struct Peak {$/;"	s	namespace:barotropic_model
+R	RossbyHaurwitzTestCase.h	/^    int R;          \/\/>! wave number$/;"	m	class:barotropic_model::RossbyHaurwitzTestCase
+RossbyHaurwitzTestCase	RossbyHaurwitzTestCase.cpp	/^RossbyHaurwitzTestCase::RossbyHaurwitzTestCase() {$/;"	f	class:barotropic_model::RossbyHaurwitzTestCase
+RossbyHaurwitzTestCase	RossbyHaurwitzTestCase.h	/^class RossbyHaurwitzTestCase : BarotropicTestCase {$/;"	c	namespace:barotropic_model
+SingleLevelField	barotropic_model_commons.h	/^typedef geomtk::NumericRLLField<double, 1> SingleLevelField;$/;"	t	namespace:barotropic_model
+SpaceCoord	barotropic_model_commons.h	/^typedef geomtk::SphereCoord SpaceCoord;$/;"	t	namespace:barotropic_model
+TOYTESTCASE_GEOSTROPHIC_WIND	ToyTestCase.cpp	82;"	d	file:
+TimeLevelIndex	barotropic_model_commons.h	/^typedef geomtk::TimeLevelIndex<2> TimeLevelIndex;$/;"	t	namespace:barotropic_model
+ToyTestCase	ToyTestCase.cpp	/^ToyTestCase::ToyTestCase() {$/;"	f	class:barotropic_model::ToyTestCase
+ToyTestCase	ToyTestCase.h	/^class ToyTestCase : public BarotropicTestCase {$/;"	c	namespace:barotropic_model
+XY_VERTEX	barotropic_model_commons.h	/^const int XY_VERTEX = geomtk::RLLStagger::Location::XY_VERTEX;$/;"	m	namespace:barotropic_model
+X_FACE	barotropic_model_commons.h	/^const int X_FACE = geomtk::RLLStagger::Location::X_FACE;$/;"	m	namespace:barotropic_model
+Y_FACE	barotropic_model_commons.h	/^const int Y_FACE = geomtk::RLLStagger::Location::Y_FACE;$/;"	m	namespace:barotropic_model
+__BarotropicModel_A_ImplicitMidpoint__	BarotropicModel_A_ImplicitMidpoint.h	2;"	d
+__BarotropicModel_C_ImplicitMidpoint__	BarotropicModel_C_ImplicitMidpoint.h	2;"	d
+__BarotropicModel__	BarotropicModel.h	2;"	d
+__BarotropicTestCase__	BarotropicTestCase.h	2;"	d
+__GeostrophicRelation__	GeostrophicRelation.h	2;"	d
+__RossbyHaurwitzTestCase__	RossbyHaurwitzTestCase.h	2;"	d
+__ToyTestCase__	ToyTestCase.h	2;"	d
+__barotropic_model__	barotropic_model.h	2;"	d
+__barotropic_model_commons__	barotropic_model_commons.h	2;"	d
+addPeak	ToyTestCase.cpp	/^void ToyTestCase::addPeak(const SpaceCoord &x, double amptitude, double radius) {$/;"	f	class:barotropic_model::ToyTestCase
+amptitude	ToyTestCase.h	/^    double amptitude;$/;"	m	struct:barotropic_model::Peak
+barotropic_model	BarotropicModel.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	BarotropicModel_A_ImplicitMidpoint.cpp	/^namespace barotropic_model {$/;"	n	file:
+barotropic_model	BarotropicModel_A_ImplicitMidpoint.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	BarotropicModel_C_ImplicitMidpoint.cpp	/^namespace barotropic_model {$/;"	n	file:
+barotropic_model	BarotropicModel_C_ImplicitMidpoint.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	BarotropicTestCase.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	GeostrophicRelation.cpp	/^namespace barotropic_model {$/;"	n	file:
+barotropic_model	GeostrophicRelation.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	RossbyHaurwitzTestCase.cpp	/^namespace barotropic_model {$/;"	n	file:
+barotropic_model	RossbyHaurwitzTestCase.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	ToyTestCase.cpp	/^namespace barotropic_model {$/;"	n	file:
+barotropic_model	ToyTestCase.h	/^namespace barotropic_model {$/;"	n
+barotropic_model	barotropic_model_commons.h	/^namespace barotropic_model {$/;"	n
+calcGeopotentialDepthTendency	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcGeopotentialDepthTendency(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcInitCond	RossbyHaurwitzTestCase.cpp	/^void RossbyHaurwitzTestCase::calcInitCond(BarotropicModel &model) {$/;"	f	class:barotropic_model::RossbyHaurwitzTestCase
+calcInitCond	ToyTestCase.cpp	/^void ToyTestCase::calcInitCond(BarotropicModel &model) {$/;"	f	class:barotropic_model::ToyTestCase
+calcMeridionalWindAdvection	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcMeridionalWindAdvection(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcMeridionalWindCoriolis	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcMeridionalWindCoriolis(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcMeridionalWindPressureGradient	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcMeridionalWindPressureGradient(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcMeridionalWindTendency	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcMeridionalWindTendency(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcTotalEnergy	BarotropicModel_A_ImplicitMidpoint.cpp	/^double BarotropicModel_A_ImplicitMidpoint::calcTotalEnergy(const TimeLevelIndex &timeIdx) const {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcTotalEnergy	BarotropicModel_C_ImplicitMidpoint.cpp	/^double BarotropicModel_C_ImplicitMidpoint::calcTotalEnergy(const TimeLevelIndex &timeIdx) const {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+calcTotalMass	BarotropicModel_A_ImplicitMidpoint.cpp	/^double BarotropicModel_A_ImplicitMidpoint::calcTotalMass(const TimeLevelIndex &timeIdx) const {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcTotalMass	BarotropicModel_C_ImplicitMidpoint.cpp	/^double BarotropicModel_C_ImplicitMidpoint::calcTotalMass(const TimeLevelIndex &timeIdx) const {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+calcZonalWindAdvection	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcZonalWindAdvection(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcZonalWindCoriolis	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcZonalWindCoriolis(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcZonalWindPressureGradient	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcZonalWindPressureGradient(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+calcZonalWindTendency	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::calcZonalWindTendency(const TimeLevelIndex &timeIdx) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+cosLat	BarotropicModel_A_ImplicitMidpoint.h	/^    vec cosLat, tanLat;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+cosLatFull	BarotropicModel_C_ImplicitMidpoint.h	/^    vec cosLatFull, cosLatHalf, tanLat;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+cosLatHalf	BarotropicModel_C_ImplicitMidpoint.h	/^    vec cosLatFull, cosLatHalf, tanLat;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+dgd	BarotropicModel.h	/^    SingleLevelField dut, dvt, dgd;$/;"	m	class:barotropic_model::BarotropicModel
+dlat	BarotropicModel_A_ImplicitMidpoint.h	/^    double dlon, dlat;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+dlat	BarotropicModel_C_ImplicitMidpoint.h	/^    double dlon, dlat;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+dlon	BarotropicModel_A_ImplicitMidpoint.h	/^    double dlon, dlat;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+dlon	BarotropicModel_C_ImplicitMidpoint.h	/^    double dlon, dlat;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+domain	BarotropicModel.h	/^    Domain *domain;$/;"	m	class:barotropic_model::BarotropicModel
+dut	BarotropicModel.h	/^    SingleLevelField dut, dvt, dgd;$/;"	m	class:barotropic_model::BarotropicModel
+dvt	BarotropicModel.h	/^    SingleLevelField dut, dvt, dgd;$/;"	m	class:barotropic_model::BarotropicModel
+factorCor	BarotropicModel_A_ImplicitMidpoint.h	/^    vec factorCor;  \/\/>! Coriolis factor: 2*OMEGA*sin(lat)$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+factorCor	BarotropicModel_C_ImplicitMidpoint.h	/^    vec factorCor;      \/\/>! Coriolis factor: 2*OMEGA*sin(lat)$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+factorCur	BarotropicModel_A_ImplicitMidpoint.h	/^    vec factorCur;  \/\/>! Curvature factor: tan(lat)\/R$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+factorCur	BarotropicModel_C_ImplicitMidpoint.h	/^    vec factorCur;      \/\/>! Curvature factor: tan(lat)\/R$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+factorLat	BarotropicModel_A_ImplicitMidpoint.h	/^    vec factorLat;  \/\/>! 1\/2\/dlat\/R\/cos(lat)$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+factorLatFull	BarotropicModel_C_ImplicitMidpoint.h	/^    vec factorLatFull;  \/\/>! 1\/2\/dlat\/R\/cos(lat) on full meridional grids$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+factorLatHalf	BarotropicModel_C_ImplicitMidpoint.h	/^    vec factorLatHalf;  \/\/>! 1\/2\/dlat\/R\/cos(lat) on half meridional grids$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+factorLon	BarotropicModel_A_ImplicitMidpoint.h	/^    vec factorLon;  \/\/>! 1\/2\/dlon\/R\/cos(lat)$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+factorLon	BarotropicModel_C_ImplicitMidpoint.h	/^    vec factorLon;      \/\/>! 1\/2\/dlon\/R\/cos(lat)$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+firstRun	BarotropicModel.h	/^    bool firstRun;$/;"	m	class:barotropic_model::BarotropicModel
+fu	BarotropicModel_A_ImplicitMidpoint.h	/^    SingleLevelField fu, fv;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+fv	BarotropicModel_A_ImplicitMidpoint.h	/^    SingleLevelField fu, fv;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+gd	BarotropicModel.h	/^    Field u, v, gd;$/;"	m	class:barotropic_model::BarotropicModel
+getDomain	BarotropicModel.h	/^    const Domain& getDomain() const { return *domain; }$/;"	f	class:barotropic_model::BarotropicModel
+getGeopotentialDepth	BarotropicModel.h	/^    Field& getGeopotentialDepth() { return gd; }$/;"	f	class:barotropic_model::BarotropicModel
+getMeridionalWind	BarotropicModel.h	/^    Field& getMeridionalWind() { return v; }$/;"	f	class:barotropic_model::BarotropicModel
+getMesh	BarotropicModel.h	/^    const Mesh& getMesh() const { return *mesh; }$/;"	f	class:barotropic_model::BarotropicModel
+getSurfaceGeopotentialHeight	BarotropicModel.h	/^    SingleLevelField& getSurfaceGeopotentialHeight() { return ghs; }$/;"	f	class:barotropic_model::BarotropicModel
+getZonalWind	BarotropicModel.h	/^    Field& getZonalWind() { return u; }$/;"	f	class:barotropic_model::BarotropicModel
+ghs	BarotropicModel.h	/^    SingleLevelField ghs;$/;"	m	class:barotropic_model::BarotropicModel
+ght	BarotropicModel.h	/^    Field ut, vt, ght;$/;"	m	class:barotropic_model::BarotropicModel
+ghu	BarotropicModel.h	/^    SingleLevelField ghu, ghv;$/;"	m	class:barotropic_model::BarotropicModel
+ghv	BarotropicModel.h	/^    SingleLevelField ghu, ghv;$/;"	m	class:barotropic_model::BarotropicModel
+halfTimeIdx	BarotropicModel_A_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+halfTimeIdx	BarotropicModel_C_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+init	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::init(int numLon, int numLat) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+init	BarotropicModel_C_ImplicitMidpoint.cpp	/^void BarotropicModel_C_ImplicitMidpoint::init(int numLon, int numLat) {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+input	BarotropicModel_A_ImplicitMidpoint.h	/^    virtual void input(const std::string &fileName) {}$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+input	BarotropicModel_C_ImplicitMidpoint.h	/^    virtual void input(const std::string &fileName) {}$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+integrate	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::integrate(const TimeLevelIndex &oldTimeIdx,$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+integrate	BarotropicModel_C_ImplicitMidpoint.cpp	/^void BarotropicModel_C_ImplicitMidpoint::integrate(const TimeLevelIndex &oldTimeIdx,$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+io	BarotropicModel.h	/^    IOManager io;$/;"	m	class:barotropic_model::BarotropicModel
+main	main.cpp	/^int main(int argc, const char *argv[])$/;"	f
+main	run_model.cpp	/^int main(int argc, const char *argv[])$/;"	f
+mesh	BarotropicModel.h	/^    Mesh *mesh;$/;"	m	class:barotropic_model::BarotropicModel
+newTimeIdx	BarotropicModel_A_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+newTimeIdx	BarotropicModel_C_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+oldTimeIdx	BarotropicModel_A_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+oldTimeIdx	BarotropicModel_C_ImplicitMidpoint.h	/^    TimeLevelIndex oldTimeIdx, halfTimeIdx, newTimeIdx;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+omega	RossbyHaurwitzTestCase.h	/^    double omega;$/;"	m	class:barotropic_model::RossbyHaurwitzTestCase
+peaks	ToyTestCase.h	/^    vector<Peak> peaks; \/\/>! local geopotential height peaks$/;"	m	class:barotropic_model::ToyTestCase
+phi0	RossbyHaurwitzTestCase.h	/^    double phi0;$/;"	m	class:barotropic_model::RossbyHaurwitzTestCase
+radius	ToyTestCase.h	/^    double radius;$/;"	m	struct:barotropic_model::Peak
+run	BarotropicModel_A_ImplicitMidpoint.cpp	/^void BarotropicModel_A_ImplicitMidpoint::run(TimeManager &timeManager) {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+run	BarotropicModel_C_ImplicitMidpoint.cpp	/^void BarotropicModel_C_ImplicitMidpoint::run(TimeManager &timeManager) {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+run	GeostrophicRelation.cpp	/^void GeostrophicRelation::run(const SingleLevelField &ghs,$/;"	f	class:barotropic_model::GeostrophicRelation
+tanLat	BarotropicModel_A_ImplicitMidpoint.h	/^    vec cosLat, tanLat;$/;"	m	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+tanLat	BarotropicModel_C_ImplicitMidpoint.h	/^    vec cosLatFull, cosLatHalf, tanLat;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+u	BarotropicModel.h	/^    Field u, v, gd;$/;"	m	class:barotropic_model::BarotropicModel
+ut	BarotropicModel.h	/^    Field ut, vt, ght;$/;"	m	class:barotropic_model::BarotropicModel
+uut	BarotropicModel_C_ImplicitMidpoint.h	/^    SingleLevelField uut, vut, uvt, vvt;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+uvt	BarotropicModel_C_ImplicitMidpoint.h	/^    SingleLevelField uut, vut, uvt, vvt;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+v	BarotropicModel.h	/^    Field u, v, gd;$/;"	m	class:barotropic_model::BarotropicModel
+vt	BarotropicModel.h	/^    Field ut, vt, ght;$/;"	m	class:barotropic_model::BarotropicModel
+vut	BarotropicModel_C_ImplicitMidpoint.h	/^    SingleLevelField uut, vut, uvt, vvt;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+vvt	BarotropicModel_C_ImplicitMidpoint.h	/^    SingleLevelField uut, vut, uvt, vvt;$/;"	m	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+x	ToyTestCase.h	/^    SpaceCoord *x;$/;"	m	struct:barotropic_model::Peak
+~BarotropicModel	BarotropicModel.h	/^    virtual ~BarotropicModel() {}$/;"	f	class:barotropic_model::BarotropicModel
+~BarotropicModel_A_ImplicitMidpoint	BarotropicModel_A_ImplicitMidpoint.cpp	/^BarotropicModel_A_ImplicitMidpoint::~BarotropicModel_A_ImplicitMidpoint() {$/;"	f	class:barotropic_model::BarotropicModel_A_ImplicitMidpoint
+~BarotropicModel_C_ImplicitMidpoint	BarotropicModel_C_ImplicitMidpoint.cpp	/^BarotropicModel_C_ImplicitMidpoint::~BarotropicModel_C_ImplicitMidpoint() {$/;"	f	class:barotropic_model::BarotropicModel_C_ImplicitMidpoint
+~BarotropicTestCase	BarotropicTestCase.h	/^    virtual ~BarotropicTestCase() {}$/;"	f	class:barotropic_model::BarotropicTestCase
+~RossbyHaurwitzTestCase	RossbyHaurwitzTestCase.cpp	/^RossbyHaurwitzTestCase::~RossbyHaurwitzTestCase() {$/;"	f	class:barotropic_model::RossbyHaurwitzTestCase
+~ToyTestCase	ToyTestCase.cpp	/^ToyTestCase::~ToyTestCase() {$/;"	f	class:barotropic_model::ToyTestCase
