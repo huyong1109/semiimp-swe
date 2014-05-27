@@ -16,8 +16,8 @@ protected:
     SingleLevelField fu, fv;
     SingleLevelField lp;
     SingleLevelField LU, LV, LH;
-    vec a[5], b, x;
-
+    vec a[5],  b,  x;
+    //vec tmpb,tmpa[5]
     double dlon, dlat;
     vec cosLat, tanLat;
     vec factorCor;  //>! Coriolis factor: 2*OMEGA*sin(lat)
@@ -68,7 +68,9 @@ private:
 
     void calcMeridionalWindPressureGradient(const TimeLevelIndex &oldTimeIdx, const TimeLevelIndex &timeIdx);
     void semiimplicit(const TimeLevelIndex &oldTimeIdx, const TimeLevelIndex &halfTimeIdx, const TimeLevelIndex &tmpTimeIdx, double dt);
+    void check_antisym(const TimeLevelIndex &TimeIdx, const TimeLevelIndex &testTimeIdx);
     vec Gauss(vec *a, vec b,  int ie);
+    vec Gaussreorder(vec *a, vec b,int ie);
     //void GaussMulti(vec *a, vec b, vec x);
 };
 

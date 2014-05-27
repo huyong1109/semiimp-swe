@@ -4,8 +4,9 @@
 #include "barotropic_model.h"
 #include "BarotropicModel.h"
 #include "BarotropicModel_A_ImplicitMidpoint.h"
+#include "BarotropicModel_Explicit.h"
+#include "BarotropicModel_Semiimp.h"
 #include "BarotropicTestCase.h"
 #include "RossbyHaurwitzTestCase.h"
-#include "ToyTestCase.h"
 
 #endif

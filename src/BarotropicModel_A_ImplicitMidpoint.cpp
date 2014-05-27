@@ -371,5 +371,9 @@ void BarotropicModel_A_ImplicitMidpoint::calcMeridionalWindPressureGradient(cons
         }
     }
 }
+/**
+ *  Input: u, ut
+ *  Output: dvt
+ */
 
 }

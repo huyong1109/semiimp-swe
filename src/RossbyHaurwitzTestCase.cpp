@@ -14,11 +14,6 @@ RossbyHaurwitzTestCase::~RossbyHaurwitzTestCase() {
 }
 
 /**
- *  u = aω (cosφ + R sin²φ cosᴿ⁻¹φ cosRλ - cosᴿ⁺¹φ sinφ cosRλ)
- *
- *  v = - aωR cosᴿ⁻¹φ sinφ sinRλ
- *
- *  h = gh0 + a²A(φ) + a²B(φ)cosRλ + a²C(φ)cos2Rλ
  *
  */
 void RossbyHaurwitzTestCase::calcInitCond(BarotropicModel &model) {
@@ -30,7 +25,6 @@ void RossbyHaurwitzTestCase::calcInitCond(BarotropicModel &model) {
     Field &u = model.getZonalWind();
     Field &v = model.getMeridionalWind();
     Field &gd = model.getGeopotentialDepth();
-    SingleLevelField &ghs = model.getSurfaceGeopotentialHeight();
     double Re = model.getDomain().getRadius();
     double R2 = R*R;
     double R_1 = R+1;
@@ -86,7 +80,6 @@ void RossbyHaurwitzTestCase::calcInitCond(BarotropicModel &model) {
             double cosRLon = cos(R*lon);
             double cos2RLon = cos(2*R*lon);
             gd(initTimeIdx, i, j) = phi0+Re*Re*(a+b*cosRLon+c*cos2RLon);
-            ghs(i, j) = 0;
         }
     }
     // -------------------------------------------------------------------------
@@ -102,15 +95,12 @@ void RossbyHaurwitzTestCase::calcInitCond(BarotropicModel &model) {
         }
         gd(initTimeIdx, i, js) = phi0;
         gd(initTimeIdx, i, jn) = phi0;
-        ghs(i, js) = 0;
-        ghs(i, jn) = 0;
         
     }
     // -------------------------------------------------------------------------
     u.applyBndCond(initTimeIdx);
     v.applyBndCond(initTimeIdx);
     gd.applyBndCond(initTimeIdx);
-    ghs.applyBndCond();
 }
 
 }
